@@ -438,7 +438,7 @@
                         <div class="detail">
                             <i class="fas fa-download"></i>
                             <label>
-                                <a href="assets/curiculum.pdf" target="_blank">
+                                <a id="curiculum" href="" target="_blank">
                                     Échale un vistazo a mi curriculum
                                 </a>
                             </label>
@@ -480,6 +480,9 @@
             </div>
         </div>
         <script>
+            var href = 'assets/curiculum.pdf?nocache='+ (new Date()).getTime();
+            document.getElementById("curiculum").href = href;
+
             window.onbeforeunload = function () {
                 window.scrollTo(0, 0);
             }; 
