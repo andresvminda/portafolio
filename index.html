@@ -186,12 +186,12 @@
                         <h3 class="title">Proyectos</h3>
                         <p class="separator"></p>
                         <p class="subtitle">
-                            Aquí hay una lista de la <u>mayoría</u> de los proyectos de desarrollo en los que he estado
+                            Aquí hay una lista de la <u>mayoría</u> de los proyectos en los que he estado
                             trabajando últimamente.
                     </div>
                     <div class="projects-wrapper">
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/ticketPRO.webp" alt="Imagen completa.">
                             </a>
                             <div class="project-details">
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/cendata-v3.webp" alt="Imagen completa.">
                             </a>
                             <div class="project-details">
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/cendiavia-web.webp"
                                     alt="Imagen completa.">
                             </a>
@@ -256,7 +256,7 @@
                             </div>
                         </div>
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/sysmedical.webp" alt="Imagen completa.">
                             </a>
                             <div class="project-details">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/cendata-v2.webp" alt="Imagen completa.">
                             </a>
                             <div class="project-details">
@@ -295,7 +295,7 @@
                             </div>
                         </div>
                         <div class="project">
-                            <a class="project-link" href="cendata3.jpg" target="_blank" rel="noopener noreferrer">
+                            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">
                                 <img class="project-image" src="assets/img/proyects/cendata-v1.webp" alt="Imagen completa.">
                             </a>
                             <div class="project-details">
@@ -339,10 +339,10 @@
                             </p>
                             <h4 class="subtitle">Astrofotografía.</h4>
                             <p>
-                                Desde niño me gustaba mucho el espacio, la luna, planetas, estrellas y galaxias.
+                                Desde niño me gustaba mucho la luna, el espacio, planetas, estrellas y galaxias.
                                 Siempre sentí curiosidad sobre cómo y por qué; podían existir cosas como esas,
                                 en dimensiones y distancias simplemente inimaginables.<br>
-                                Ace pocos años mi mejor amigo me presto su telescopio con el pude ver por primera vez los
+                                Hace pocos años mi mejor amigo me presto su telescopio con el pude ver por primera vez los
                                 cráteres de la Luna,
                                 y tiempo después, compré mis propios equipos con los cuales,
                                 inició mi camino por la astrofotografía desde el año 2022.
@@ -430,10 +430,17 @@
                         <div class="detail">
                             <i class="fab fa-whatsapp"></i>
                             <label>
-                                <ahref="https: //api.whatsapp.com/send?phone=+593967535479&text=Hola, Necesito contactarme
-                                    contigo!" target="_blank">
+                                <a href="https: //api.whatsapp.com/send?phone=+593967535479&text=Hola, Necesito contactarme contigo!" target="_blank">
                                     Envíame un mensaje de WhatsApp
-                                    </a>
+                                </a>
+                            </label>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-download"></i>
+                            <label>
+                                <a href="assets/curiculum.pdf" target="_blank">
+                                    Échale un vistazo a mi curriculum
+                                </a>
                             </label>
                         </div>
                     </div>
@@ -472,9 +479,6 @@
                 <img class="photo" src="" alt="Imagen completa.">
             </div>
         </div>
-
-        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
         <script>
             window.onbeforeunload = function () {
                 window.scrollTo(0, 0);
@@ -487,7 +491,7 @@
                     navbar.classList.add('bg-active');
                 else navbar.classList.remove('bg-active');
             };
-            
+
             const button = document.querySelector('.menu-button'),
                 menu = document.querySelector('.menu-container'),
                 items = menu.querySelectorAll('.menu-items li a'),
