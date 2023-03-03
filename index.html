@@ -6,12 +6,17 @@
         <meta name="keywords"
             content="portfolio, css, javascript, software, coding, programming, web, development, developer, fullstack, frontend, freecodecamp, es2015" />
         <link rel="stylesheet" href="assets/plugins/fontawesome-free-5.15.4-web/css/all.css">
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div id="app">
-            <div class="menu-container false">
+            <nav id="navbar">
+                <div class="nav-wrapper">
+                    <p class="brand">andres<strong>minda</strong></p><a class="menu-button"><span></span></a>
+                </div>
+            </nav>
+            <div class="menu-container">
                 <div class="overlay"></div>
                 <div class="menu-items">
                     <ul>
@@ -41,11 +46,6 @@
                     </div>
                 </div>
             </div>
-            <nav id="navbar">
-                <div class="nav-wrapper">
-                    <p class="brand">andres<strong>minda</strong></p><a class="menu-button"><span></span></a>
-                </div>
-            </nav>
             <header id="welcome-section">
                 <div class="nightSky">
                     <div class="shootingStarContainer">
@@ -90,7 +90,7 @@
                     <div class="stars"></div>
                     <div class="twinkleMask"></div>
                     <div class="twinkleMask2"></div>
-                    <div class="clouds"></div>
+                    <!--<div class="clouds"></div>-->
 
                     <div class="fogContainer">
                         <div class="fog"></div>
@@ -430,7 +430,7 @@
                         <div class="detail">
                             <i class="fab fa-whatsapp"></i>
                             <label>
-                                <a href="https: //api.whatsapp.com/send?phone=+593967535479&text=Hola, Necesito contactarme contigo!" target="_blank">
+                                <a href="https://api.whatsapp.com/send?phone=+593967535479&text=Hola, Necesito contactarme contigo!" target="_blank">
                                     Envíame un mensaje de WhatsApp
                                 </a>
                             </label>
@@ -482,10 +482,10 @@
         <script>
             var href = 'assets/curiculum.pdf?no-cache='+ (new Date()).getTime();
             document.getElementById("curiculum").href = href;
-
-            window.onbeforeunload = function () {
+            
+            /*window.onbeforeunload = function () {
                 window.scrollTo(0, 0);
-            }; 
+            }; */
 
             window.onscroll = () => {
                 let scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
